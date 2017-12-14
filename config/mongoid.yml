@@ -1,3 +1,13 @@
+production:
+  sessions:
+    default:
+      database: <%= ENV['DATABASE_NAME'] %>
+      hosts:
+        - <%= ENV['DATABASE_HOST'] %>
+      options:
+        user: <%= ENV['DATABASE_USERNAME'] %>
+        password: <%= ENV['DATABASE_PASSWORD'] %>
+
 development:
   # Configure available database sessions. (required)
   sessions:
