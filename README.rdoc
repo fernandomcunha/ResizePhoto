@@ -1,28 +1,12 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Here is how to build it:
 
-Things you may want to cover:
+  - Open rails console and just call the business builder `PhotosBuilder.new(Photo).create_photos` so it create 10 objects and resize the images.
 
-* Ruby version
+  - To run tests just call `bundle exec rspec`
 
-* System dependencies
+  - I choose to use Ruby on Rails cause I can make use of many gems that would help me do the challenge.
 
-* Configuration
+  - Here is and example URL of the 10 images resized https://guarded-reef-13864.herokuapp.com/photos.json
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
