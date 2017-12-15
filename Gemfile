@@ -12,6 +12,7 @@ gem 'httparty'
 gem 'mongoid', '~> 5.0'
 gem 'bson_ext'
 gem 'mongoid-paperclip'
+gem 'aws-sdk', '~> 2.3.0'
 
 group :development, :test do
   gem 'byebug'
